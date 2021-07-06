@@ -312,6 +312,7 @@ a img.aligncenter {
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
+	background-color: #333333
 }
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #ffffff;
@@ -360,7 +361,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+/*    background-color: #000;*/
     z-index: 0;
     opacity: .6;
 }
@@ -370,15 +371,16 @@ a img.aligncenter {
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
+	text-shadow: #000 0 0 8px, #000 0 0 8px;
 }
 .heading h1{
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 72px;
 	text-transform: uppercase;
 }
 .heading p{
-	font-size: 18px;
+	font-size: 23px;
 	padding: 20px 0px;
 }
 
